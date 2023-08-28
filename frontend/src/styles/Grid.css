@@ -1,0 +1,30 @@
+/* Grid.css */
+/* Your existing styles... */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  margin: 0 10px; /* Add spacing between buttons */
+}
+
+/* Style for the "Ajouter" button */
+.button-container button.primary {
+  background-color: #2185d0; /* Semantic UI's primary color */
+  color: #fff;
+}
+
+/* Style for the "Supprimer" button */
+.button-container button.negative {
+  background-color: #db2828; /* Semantic UI's negative color */
+  color: #fff;
+}
+
+/* Hover effect for buttons */
+.button-container button:hover {
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+  cursor: pointer;
+}

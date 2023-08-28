@@ -1,0 +1,47 @@
+/* Shared styles */
+.container {
+  padding: 20px;
+}
+
+/* Header styles */
+.form-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Personnel section styles */
+.personnel-section-container {
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 9px;
+  border-bottom: 1px solid #ccc;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.dropdown,
+.display-field {
+  padding: 6px;
+  border-radius: 3px;
+  font-size: 9px;
+  width: 150px;
+}
+
+.display-field {
+  background-color: #f2f2f2;
+}
